@@ -1,0 +1,27 @@
+@font-face {
+	font-family: 'Politik';
+	src: url('../fonts/Politik.otf');
+}
+
+body {
+  background-color: green;
+}
+
+#trace {
+  font-size: 60px;
+  font-family: 'Politik';
+  color: red;
+}
+
+#timer {
+  font-size: 128px;
+  font-family: 'Politik';
+  color: red;
+  position: absolute;
+  top: 42px;
+}
+
+.btn {
+  position: absolute;
+  top: 320px;
+}
