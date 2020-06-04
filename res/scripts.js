@@ -1,5 +1,8 @@
+// Code Isnpletd
+// http://jsfiddle.net/ydCq3/
+
 $(document).ready(function() {
-  var initial = 9999;
+  var initial = 9998;
   var count = initial;
   var counter; //10 will  run it every 100th of a second
 
@@ -24,7 +27,7 @@ $(document).ready(function() {
   }
 
   $('#start').on('click', function() {
-    counter = setInterval(timer, 10);
+    counter = setInterval(timer, 28);
   });
 
   $('#stop').on('click', function() {
